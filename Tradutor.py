@@ -48,7 +48,8 @@ def traduzir_txt():
         for lang in traduzir_para:
             if os.path.exists(f"{local_de_salvamento}//{lang}"):
                 pass
-            else: os.makedirs(f"{local_de_salvamento}//{lang}")
+            else:
+		os.makedirs(f"{local_de_salvamento}//{lang}")
             texto_completo1 = []
             texto_completo2 = ""
         
