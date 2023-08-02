@@ -1,0 +1,1 @@
+# Plr__tradutor_mobile
