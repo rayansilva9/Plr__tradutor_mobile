@@ -3,7 +3,7 @@ import time
 from googletrans import Translator
 from docx import Document
 
-list = os.listdir("//storage//emulated//0//Documents//Pydroid3//plr//")
+list = os.listdir("//storage//emulated//0//Documents//Pydroid3//PLR//")
 
 
 tradutor = Translator(service_urls=["translate.google.com"])
@@ -13,9 +13,9 @@ arquivos = []
 items_docx = []
 items_txt = []
 
-local_de_salvamento = "//storage//emulated//0//Documents//Pydroid3//traduzidos"
+local_de_salvamento = "//storage//emulated//0//Documents//Pydroid3//TRADUZIDOS"
 
-local_de_arquivos = "//storage//emulated//0//Documents//Pydroid3//plr//"
+local_de_arquivos = "//storage//emulated//0//Documents//Pydroid3//PLR//"
 
 traduzir_para = ["pt","en","fr"]
 
